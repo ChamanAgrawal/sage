@@ -46,7 +46,8 @@ from .derangements import Derangements
 lazy_import('sage.combinat.baxter_permutations', ['BaxterPermutations'])
 
 #RSK
-from .rsk import RSK, RSK_inverse, robinson_schensted_knuth, robinson_schensted_knuth_inverse
+from .rsk import (RSK, RSK_inverse,
+                  robinson_schensted_knuth, robinson_schensted_knuth_inverse)
 
 #HillmanGrassl
 lazy_import("sage.combinat.hillman_grassl", ["WeakReversePlanePartition", "WeakReversePlanePartitions"])
